@@ -1,0 +1,54 @@
+.carlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.car {
+  display: flex;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  width: 500px;
+  max-height: 165px;
+  padding: 20px;
+  border: 1px solid navy;
+  cursor: pointer;
+}
+
+.car:hover {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.car_image {
+  width: 180px;
+  flex-basis: 50%;
+}
+.car_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.car_info {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.car_info_name {
+  font-size: 1em;
+  margin-bottom: 20px;
+  align-self: center;
+  text-decoration: underline;
+}
+.car_info_details {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 0.8em;
+}

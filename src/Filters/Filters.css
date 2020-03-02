@@ -1,0 +1,23 @@
+.no-selection {
+  background-color: gray !important;
+  font-style: italic;
+  font-size: 0.8rem !important;
+  color: #fff !important;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.filters_container {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.filters_container_select {
+  min-width: 100px;
+}
